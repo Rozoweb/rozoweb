@@ -71,7 +71,7 @@ angular
 		{
 			'categoria': 'Restaurante',
 			'nombreNegocio': 'Almuerzos',
-			'descripcion': 'Almuerzos caseros',
+			'descripcion': 'Almuerzos caseros, sancocho de gallina, pollo, carne de cerdo, res, entre otros.',
 			'Telefono': '3168714359',
 			'Telefono2': '3185229984',
 		},
