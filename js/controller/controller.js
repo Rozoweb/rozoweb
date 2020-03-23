@@ -95,7 +95,7 @@ angular
 		},
 		{
 			'categoria': 'Avicolas',
-			'image' : 'img/domicilio.png',
+			'image' : 'img/cerpollo.jpeg',
 			'nombreNegocio': 'CerPollo',
 			'descripcion': 'Pollo campesino y carne de cerdo',
 			'Telefono': '3146094406',
