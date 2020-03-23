@@ -22,9 +22,9 @@
 				<img src="img/covid19.png" height="200px" alt="">
 			</div>
 			<div class="col-md-12 col-xs-12" id="content">
-				<h1>Catálogo de Establecimientos</h1>
-				<h2>Rozo, Valle</h2> 	
-				<h4>Encuentra rápidamente aquí el establecimiento que buscas a través de nuestro catálogo de negocios con servicio de domicílio en Rozo.</h4>
+				<h1 class="shadow">Catálogo de Establecimientos</h1>
+				<h2 class="shadow">Rozo, Valle</h2> 	
+				<h4 class="shadow">Encuentra rápidamente aquí el establecimiento que buscas a través de nuestro catálogo de negocios con servicio de domicílio en Rozo.</h4>
 				<h3>
 					<a href="https://twitter.com/hashtag/QuedateEnCasa?src=hashtag_click" target="_blank">#QuedateEnCasa</a>
 					<a href="https://twitter.com/search?q=%23LavateLasManosSiempre&src=typed_query">#LavateLasManos</a>
@@ -32,7 +32,7 @@
 			</div>
 		</div>			
 		<div class="row" id="content">	
-			<hr>
+			<hr class="myhr">
 			<h4>
 			<a href="https://twitter.com/tigreros92" target="_blank">@tigreros92</a>
 			<span>/</span>
@@ -46,11 +46,11 @@
 		<div class="row">
 			<div ng-repeat="negocio in Negocios | filter:query">
 				<div class="col-md-4 col-xs-6">
-					<h5>
+					<h5 class="shadow">
 						<label>Tipo:</label>
 						{{negocio.categoria}}
 					</h5>
-					<h4>
+					<h4 class="shadow">
 						{{negocio.nombreNegocio}}
 					</h4>
 					<p>
