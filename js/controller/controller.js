@@ -165,12 +165,12 @@ angular
 			'Telefono': '3155373787',
 			'Telefono2': '3117156854',
 		},
-		{	
-			'categoria': 'Comidas rápidas',
-			'image' : 'img/domicilio.png',
-			'nombreNegocio': 'Aquí es QUINA',
-			'descripcion': 'Asados y comidas rápidas',
-			'Telefono': '3173135699',
+		{
+			'categoria': 'Sorpresas y desayunos',
+			'image' : 'img/desayunosmeli.jpeg',
+			'nombreNegocio': 'Desayunos & Antojitos Meli',
+			'descripcion': 'Desayunos sospresa, mediamañana, media tarde, ancheta, guacal, bouquet de globos Meli',
+			'Telefono': '317 3144823181',
 			'Telefono2': '-',
 		},
 		{	
@@ -203,6 +203,14 @@ angular
 			'nombreNegocio': 'Fantasilandia Frozen',
 			'descripcion': 'Heladería',
 			'Telefono': '317 6396825',
+			'Telefono2': '-',
+		},
+		{	
+			'categoria': 'Comidas rápidas',
+			'image' : 'img/domicilio.png',
+			'nombreNegocio': 'Aquí es QUINA',
+			'descripcion': 'Asados y comidas rápidas',
+			'Telefono': '3173135699',
 			'Telefono2': '-',
 		},
 		{
