@@ -2,7 +2,6 @@ angular
 	.module('catalogoModule', [])
 	
 	.controller('catalogoCtrl', function($scope){
-		$scope.nuevoPais = {};
 		$scope.Negocios = [
 		
 		{
@@ -79,7 +78,7 @@ angular
 		},
 		{
 			'categoria': 'Restaurante',
-			'image' : 'img/domicilio.png',
+			'image' : 'img/broaster.jpg',
 			'nombreNegocio': 'Broaster Chicken',
 			'descripcion': 'Pollo asado, pollo apanado, consomé, arróz con pollo, entre otros.',
 			'Telefono': '3206125902',
@@ -118,11 +117,19 @@ angular
 			'Telefono2': '310 310 3110',
 		},
 		{
-			'categoria': 'Cárnicos',
+			'categoria': 'Carnicos',
 			'nombreNegocio': 'Productos cárnicos',
 			'image' : 'img/domicilio.png',
 			'descripcion': 'Pollo campesino',
 			'Telefono': '3113691402',
+			'Telefono2': '-',
+		},
+		{
+			'categoria': 'Carnicos',
+			'nombreNegocio': 'La abundancia',
+			'image' : 'img/abundancia.jpg',
+			'descripcion': 'productos carnicos, carne fresca.',
+			'Telefono': '311 3691402',
 			'Telefono2': '-',
 		},
 		{
@@ -198,6 +205,14 @@ angular
 			'Telefono2': '3146186960',
 		},
 		{
+			'categoria': 'Panaderia',
+			'image' : 'img/pandis.jpg',
+			'nombreNegocio': 'Panadería Pandis',
+			'descripcion': 'Pan tajado, pan perro, pan hamburguesa',
+			'Telefono': '316 4982602',
+			'Telefono2': '',
+		},
+		{
 			'categoria': 'Heladeria',
 			'image' : 'img/fantasilandia.png',
 			'nombreNegocio': 'Fantasilandia Frozen',
@@ -219,6 +234,14 @@ angular
 			'nombreNegocio': 'Comidas rapidas donde Marcos',
 			'descripcion': 'Perros calientes, hamburguesas, chorizos',
 			'Telefono': '312 6468002',
+			'Telefono2': '-',
+		},
+		{	
+			'categoria': 'Comidas rápidas',
+			'image' : 'img/dfrutas.jpg',
+			'nombreNegocio': 'Dfrutas',
+			'descripcion': 'Perros calientes, hamburguesas, heladeria, jugos naturales.',
+			'Telefono': '322 8240887',
 			'Telefono2': '-',
 		},
 		{
