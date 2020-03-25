@@ -242,7 +242,7 @@ angular
 			'image' : 'img/yepe.jpeg',
 			'nombreNegocio': 'Yepe barber shop',
 			'descripcion': 'Peluqueria yepe barber shop, depilacion cejas, cortes americanos, figuras, corte con tijera',
-			'Telefono': '3215206513',
+			'Telefono': '301 3250450',
 			'Telefono2': '-',
 		},
 		{
