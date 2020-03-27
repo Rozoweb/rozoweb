@@ -84,10 +84,10 @@
 				<div class="thumbnail">
 					<img ng-src="{{negocio.image}}" style="height:180px;" alt="">
 					<div class="caption">
-						<h4>{{negocio.nombreNegocio}}</h4>
+						<h4>{{negocio.nombreNegocio}} <small>{{negocio.categoria}}</small></h4>
 						<p>{{negocio.descripcion}}</p>
-						<p><label>Telefono 1: {{negocio.Telefono}}</label></p>
-						<p><label>Telefono 2: {{negocio.Telefono2}}</label></p>
+						<p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><label>Telefono 1: {{negocio.Telefono}}</label></p>
+						<p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><label>Telefono 2: {{negocio.Telefono2}}</label></p>
 					</div>
 				</div>
 				<hr class="myhr" style="width: 70%;">
@@ -95,7 +95,7 @@
 		</div>	
 		
 		<div class="row" id="content">
-			<div class="alert alert-info row col-md-4 col-xs-offset-4" role="alert" ng-show="(Negocios | filter:query).length == 0">{{query}} aún no está en nuestro sitio!</div>
+			<div class="alert alert-info row col-md-4 col-xs-offset-4" role="alert" ng-show="(Negocios | filter:query).length == 0"><b>{{query}}</b> aún no está en nuestro sitio!</div>
 		</div>
 
 	</div>	

@@ -244,6 +244,14 @@ angular
 			'Telefono': '322 8240887',
 			'Telefono2': '-',
 		},
+		{	
+			'categoria': 'Comidas rápidas',
+			'image' : 'img/perroloco.jpeg',
+			'nombreNegocio': 'Perro loco',
+			'descripcion': 'Perros calientes, hamburguesas, chorizos, colitas y más',
+			'Telefono': '315 7465115',
+			'Telefono2': '-',
+		},
 		{
 			'categoria': 'Heladeria',
 			'image' : 'img/domicilio.png',
@@ -269,7 +277,15 @@ angular
 			'Telefono2': '-',
 		},
 		{
-			'categoria': 'Trámites',
+			'categoria': 'Quesera',
+			'image' : 'img/queseralaprimavera.jpg',
+			'nombreNegocio': 'Quesera y salsamentaria',
+			'descripcion': 'Lacteos, huevos, carnes frías, desechables, y más',
+			'Telefono': '315 6571204',
+			'Telefono2': '-',
+		},
+		{
+			'categoria': 'Tramites',
 			'image' : 'img/domicilio.png',
 			'nombreNegocio': 'Masivos Rozo ',
 			'descripcion': 'Generación de certificados, antecedentes, pines y afiliación a plataformas de entretenimiento digital (Netflix, Spotify, Amazon, DirecTV, etc), recargas, SOAT, fotocopias, impresiones y más.',
