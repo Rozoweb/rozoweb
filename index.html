@@ -30,14 +30,14 @@
 				<h4 class="shadow">Encuentra rápidamente aquí el establecimiento que buscas a través de nuestro catálogo de negocios con servicio de domicílio en Rozo.</h4>
 				<h3>
 					<a href="https://twitter.com/hashtag/QuedateEnCasa?src=hashtag_click" target="_blank">#QuedateEnCasa</a>
-					<a href="https://twitter.com/search?q=%23LavateLasManosSiempre&src=typed_query">#LavateLasManos</a>
+					<a href="https://twitter.com/search?q=%23LavateLasManosSiempre&src=typed_query" target="_blank">#LavateLasManos</a>
 				</h3>
 			</div>
 		</div>			
 		<div class="row" id="content">	
 			<h4>
 			<!--a href="https://twitter.com/tigreros92" target="_blank">@tigreros92</a-->
-			<a href="https://twitter.com/tigreros92?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @tigreros92</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<a href="https://twitter.com/tigreros92?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false" target="_blank">Follow @tigreros92</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			<span>/</span>
 			<a href="https://fb.com/rozovalle" target="_blank"> Rozo Valle</a>	
 			<span>/</span>
@@ -48,35 +48,6 @@
 				<input type="search" class="form-control" placeholder="Ej. Restaurantes, Droguerías, Supermercados ..." ng-model="query">
 			</div>
 		</div>	
-	<!--
-		<div class="row">
-			<div ng-repeat="negocio in Negocios | filter:query">
-				<div class="col-md-4 col-xs-6">
-					<h4 class="shadow">
-						{{negocio.nombreNegocio}}
-					</h4>
-					<img ng-src="{{negocio.image}}" alt="{{negocio.nombreNegocio}}" style="height:180px;" >
-					<h5 class="shadow">
-						<label>Tipo:</label>
-						{{negocio.categoria}}
-					</h5>
-					<p>
-						<label>Descripcion: </label>
-						{{negocio.descripcion}}
-					</p>
-					<p>
-						<label>Telefono 1: </label>
-						{{negocio.Telefono}}
-					</p>
-					<p>
-						<label>Telefono 2: </label>
-						{{negocio.Telefono2}}
-					</p>
-					<hr class="myhr">
-				</div>
-			</div>	
-		</div>
-	-->
 
 	<div class="row">
 		<div ng-repeat="negocio in Negocios | filter:query">
@@ -88,6 +59,7 @@
 						<p>{{negocio.descripcion}}</p>
 						<p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><label>Telefono 1: {{negocio.Telefono}}</label></p>
 						<p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><label>Telefono 2: {{negocio.Telefono2}}</label></p>
+						<h4>Domicilio: <small>{{negocio.domicilio}}</small></h4>
 					</div>
 				</div>
 				<hr class="myhr" style="width: 70%;">

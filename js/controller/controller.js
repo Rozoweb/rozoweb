@@ -301,6 +301,15 @@ angular
 			'Telefono2': '-',
 		},
 		{
+			'categoria': 'Papeleria & Heladeria',
+			'image' : 'img/interjg.png',
+			'nombreNegocio': 'InterJG',
+			'descripcion': 'Papeleria, impresiones, fotocopias, venta de SOAT, Micelanea y Heladeria, ',
+			'domicilio' : '-',
+			'Telefono': '316 5633707',
+			'Telefono2': '317 4456015',
+		},
+		{
 			'categoria': 'Tienda',
 			'image' : 'img/domicilio.png',
 			'nombreNegocio': 'Tienda y revueltería el Paisa',
