@@ -108,6 +108,7 @@ angular
 			'image' : 'img/domicilio.png',
 			'nombreNegocio': 'Almuerzos',
 			'descripcion': 'Almuerzos caseros, sancocho de gallina, pollo, carne de cerdo, res, entre otros.',
+			'domicilio' : 'Gratis',
 			'Telefono': '3168714359',
 			'Telefono2': '3185229984',
 		},
