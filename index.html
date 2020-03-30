@@ -52,12 +52,11 @@
 	<div class="myDiv">
 		<span>Ordenar por: <span class="glyphicon glyphicon-sort-by-alphabet" aria-hidden="true"></span>
 				<select ng-model="ordenar">
-					<option selected value="nombreNegocio">Nombre A-Z</option>
+					<option value="nombreNegocio">Nombre A-Z</option>
 					<option value="-nombreNegocio">Nombre Z-A</option>
 					<option value="categoria">Tipo de negocio A-Z</option>
 					<option value="-categoria">Tipo de negocio Z-A</option>
 					<option value="-domicilio">Domicilio Gratis</option>
-					<option value="domicilio">Domicilio -</option>
 				</select>
 			</span>
 	</div>
@@ -65,7 +64,7 @@
 		<div ng-repeat="negocio in Negocios | filter:query | orderBy:ordenar">
 			<div class="col-md-4 col-xs-6">
 				<div class="thumbnail">
-					<img ng-src="{{negocio.image}}" style="height:180px;" alt="">
+					<img ng-src="{{negocio.image}}" alt="" class="img-responsive img-rounded">
 					<div class="caption">
 						<h4>{{negocio.nombreNegocio}} <small>{{negocio.categoria}}</small></h4>
 						<p>{{negocio.descripcion}}</p>
