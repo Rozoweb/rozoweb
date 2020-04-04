@@ -258,6 +258,15 @@ angular
 		},
 		{	
 			'categoria': 'Comidas rápidas',
+			'image' : 'img/ohmydog.jpeg',
+			'nombreNegocio': 'Oh my Dog',
+			'descripcion': 'Salchipapas, perros calientes, hamburguesas, colitas cubanas, y más, al lado de boricua.',
+			'domicilio' : 'Gratis',
+			'Telefono': '312 8201093',
+			'Telefono2': '313 7504202',
+		},
+		{	
+			'categoria': 'Comidas rápidas',
 			'image' : 'img/fastfood.jpg',
 			'nombreNegocio': 'Lo mejor Fast Food',
 			'descripcion': 'Perros calientes, Hamburguesas, Sandwich, Salchipapas',
@@ -281,6 +290,15 @@ angular
 			'descripcion': 'Perros calientes, hamburguesas, heladeria, jugos naturales.',
 			'domicilio' : 'Gratis',
 			'Telefono': '322 8240887',
+			'Telefono2': '-',
+		},
+		{	
+			'categoria': 'Comidas rápidas',
+			'image' : 'img/eltrailer.jpg',
+			'nombreNegocio': 'El Trailer',
+			'descripcion': 'Papas con todo, una forma diferente de comer Salchipapas, burritos, tacos, y más.',
+			'domicilio' : 'Gratis',
+			'Telefono': '321 5206540',
 			'Telefono2': '-',
 		},
 		{	
@@ -375,7 +393,7 @@ angular
 		},
 		{
 			'categoria': 'Tramites',
-			'image' : 'img/domicilio.png',
+			'image' : 'img/masivos.jpg',
 			'nombreNegocio': 'Masivos Rozo ',
 			'descripcion': 'Generación de certificados, antecedentes, pines y afiliación a plataformas de entretenimiento digital (Netflix, Spotify, Amazon, DirecTV, etc), recargas, SOAT, fotocopias, impresiones y más.',
 			'domicilio' : '-',
