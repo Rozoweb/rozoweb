@@ -258,15 +258,6 @@ angular
 		},
 		{	
 			'categoria': 'Comidas rápidas',
-			'image' : 'img/ohmydog.jpeg',
-			'nombreNegocio': 'Oh my Dog',
-			'descripcion': 'Salchipapas, perros calientes, hamburguesas, colitas cubanas, y más, al lado de boricua.',
-			'domicilio' : 'Gratis',
-			'Telefono': '312 8201093',
-			'Telefono2': '313 7504202',
-		},
-		{	
-			'categoria': 'Comidas rápidas',
 			'image' : 'img/fastfood.jpg',
 			'nombreNegocio': 'Lo mejor Fast Food',
 			'descripcion': 'Perros calientes, Hamburguesas, Sandwich, Salchipapas',
