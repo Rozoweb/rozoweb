@@ -312,6 +312,15 @@ angular
 		},
 		{
 			'categoria': 'Pizzeria',
+			'image' : 'img/margarita.jpeg',
+			'nombreNegocio': 'La Margarita Pizzeria',
+			'descripcion': 'Pizzeria, Pizzas y Lasagnas a domicilio.',
+			'domicilio' : 'Gratis',
+			'Telefono': '316 8195736',
+			'Telefono2': '-',
+		},
+		{
+			'categoria': 'Pizzeria',
 			'image' : 'img/emmanuelpizza.jpg',
 			'nombreNegocio': 'Emmanuel Pizzeria',
 			'descripcion': 'Pizzeria, pizzas a domicilio',
@@ -374,6 +383,15 @@ angular
 			'Telefono2': '-',
 		},
 		{
+			'categoria': 'Barbería',
+			'image' : 'img/andresbarber.jpeg',
+			'nombreNegocio': 'Andres Barber',
+			'descripcion': 'Peluqueria Andres barber, depilacion cejas, cortes americanos, figuras, corte con tijera',
+			'domicilio' : '-',
+			'Telefono': '320 9715934',
+			'Telefono2': '-',
+		},
+		{
 			'categoria': 'Quesera',
 			'image' : 'img/queseralaprimavera.jpg',
 			'nombreNegocio': 'Quesera y salsamentaria',
@@ -391,6 +409,15 @@ angular
 			'Telefono': '3174924081',
 			'Telefono2': '-',
 		},
+		{
+			'categoria': 'Tramites',
+			'image' : 'img/sic.jpeg',
+			'nombreNegocio': 'Servicios integrados Constanza ',
+			'descripcion': 'Certificados, fotocopias, miscelaneas, pepaleria, Directv, pago de internet Inprotel y más',
+			'domicilio' : '-',
+			'Telefono': '319 2748618',
+			'Telefono2': '-',
+		}
 
 		];		
 		
