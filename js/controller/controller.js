@@ -193,6 +193,15 @@ angular
 			'Telefono': '3155373787',
 			'Telefono2': '3117156854',
 		},
+		{	
+			'categoria': 'Comidas rápidas',
+			'image' : 'img/arepatresesquinas.jpg',
+			'nombreNegocio': 'Arepa de choclo tres esquinas',
+			'descripcion': 'Arepas, masa, envueltos de choclo, arepa de huevo',
+			'domicilio' : 'Gratis',
+			'Telefono': '3133735194',
+			'Telefono2': '3209451009',
+		},
 		{
 			'categoria': 'Sorpresas y desayunos',
 			'image' : 'img/desayunosmeli.jpeg',
